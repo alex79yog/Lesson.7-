@@ -1,0 +1,56 @@
+div {
+  margin-bottom: 1.5rem;
+}
+
+img {
+  width: 100%;
+}
+.overflow-wrapper {
+  width: 60px;
+  height: 136px;
+  margin: 1rem 10rem 10rem 1rem;
+}
+.overflow-left {
+  width: 204px;
+  height: 136px;
+}
+p {
+  margin-left: 1rem;
+}
+.overflow-wrapper-2 {
+  overflow: auto;
+  width: 225px;
+  height: 136px;
+  float: left;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* display flex */
+.container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 25px;
+}
+
+.block {
+  width: 150px;
+  height: 150px;
+  margin: 15px;
+  padding: 5px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: orange;
+  text-align: center;
+
+}
+
+.block-2 {
+  overflow: hidden;
+}
+
+.block-3 .block-4 {
+}
